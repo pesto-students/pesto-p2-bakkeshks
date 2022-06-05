@@ -1,4 +1,4 @@
-function createincrement() {                // create outer function called createincrenment()
+function createIncrement() {                // create outer function called createincrenment()
     let count = 0;                          // Initilaze count variable to  value to 0
     function increnment() {                 // create inner function called increnment()
         count++;                            
@@ -10,7 +10,7 @@ function createincrement() {                // create outer function called crea
     return [increnment,log];                
 }
 
-const[increnment,log] = createincrement();          // invoke or call  the createincrement function
+const[increnment,log] = createIncrement();          // invoke or call  the createincrement function
 increnment();                                       // call the increnment() function
 increnment();                                       // call the increnment() function
 increnment();                                       // call the increnment() function
