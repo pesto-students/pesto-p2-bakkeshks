@@ -1,6 +1,6 @@
 // program to demonstrate call, apply and bind function 
  
-var p1 = {                      // create p1 object and initize the name,age,college values                   
+let p1 = {                      // create p1 object and initize the name,age,college values                   
   name: "bakkesh",
   age: null,
   college: null,
@@ -9,7 +9,7 @@ var p1 = {                      // create p1 object and initize the name,age,col
     this.college = b;
   }
 }
-var p2 = {                      // create p2 object and initize the name,age,college values
+let p2 = {                      // create p2 object and initize the name,age,college values
   name: "john",
   age: null,
   college: null,
@@ -24,14 +24,16 @@ console.log(p1.age + p1.college);   // output (25, ubdt)
 p1.set.apply(p2, [30, 'standford']);// invoke the set method of p2 object with passing paramaters as an array using APPLY() Method.
 console.log(p2.age + p2.college);   // output (30, college )
 
-var bindfunction1 = p1.set.bind(p1, 30, 'manipal'); // invoke the set method of  p1 object  and set the values to p1 object with passing paramaters using BIND() Method.
+const bindfunction1 = p1.set.bind(p1, 30, 'manipal'); // invoke the set method of  p1 object  and set the values to p1 object with passing paramaters using BIND() Method.
 bindfunction1();                                     // Bind() method returns a function that could call a later point. 
 console.log(p1.age + p1.college);               // output (30, manipal)
-var bindfunction2 = p1.set.bind(p2, 35, 'Vtu');   // invoke the set method of p1 object and set the values to p2 object with passing paramaters using BIND() Method.
-
+const bindfunction2 = p1.set.bind(p2, 35, 'Vtu');   // invoke the set method of p1 object and set the values to p2 object with passing paramaters using BIND() Method.
+bindfunction2();
+console.log(p2.age + p2.college);
 // Output 
 // 20 biet
 // 18 harvad
 // 25 ubdt
 // 30 standford
 // 30 manipal 
+// 35 vtu
