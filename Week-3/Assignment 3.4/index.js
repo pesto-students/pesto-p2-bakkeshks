@@ -12,12 +12,13 @@ function createStack() {
   }
   console.log("current state of stack: ");
   var stack = createStack();
+  stack.items=[110,150];
   stack.push(100);
   stack.push(50);
   console.log("Elements after pop :");
   console.log(stack.pop()); 
   console.log(stack.items);        //  no access to array items outside createstack() function.
-
+            
 /* OUTPUT : 
 
   Elements in the stack :
