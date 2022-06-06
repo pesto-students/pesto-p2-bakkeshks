@@ -19,7 +19,7 @@ console.log(p1.age + p1.college);   // output (20, biet)
 p1.set.call(p2, 18, 'harvad');      // invoke the set method of p1 object with paramaters and set the values to p2 object properities using CALL() Method
 console.log(p2.age + p2.college);   // output (18, harvad)
 
-p1.set.apply(p1, [25, 'ubdt']);     // invoke the set method of p1 object with passing paramaters as an array using APPLY() Method.
+p1.set.apply(p1, [25, 'ubdt']);     // invokes the set method of p1 object with passing paramaters as an array using APPLY() Method.
 console.log(p1.age + p1.college);   // output (25, ubdt) 
 p1.set.apply(p2, [30, 'standford']);// invoke the set method of p2 object with passing paramaters as an array using APPLY() Method.
 console.log(p2.age + p2.college);   // output (30, college )
