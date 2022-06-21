@@ -1,0 +1,97 @@
+header {
+    text-align: center;
+    background-color: rgb(0, 21, 255);
+    color: white;
+    position: relative;
+    top: -20px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    position: relative;
+    top: -60px;
+}
+
+table {
+    background-color:lightblue;
+
+}
+
+.signup-sidebar {
+    background-color: lightblue;
+    height: 40%;
+    position: relative;
+    top: 80px;
+
+}
+
+.sign-up {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container>div {
+
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        display: inline;
+
+
+    }
+
+    .sign-up {
+        text-align: left;
+    }
+}
+
+.button {
+    background-color: red;
+}
+
+.button:hover {
+    background-color: blue;
+}
+
+.blog-section {
+    width: 60%;
+}
+
+article {
+
+    border: 2px solid rgba(152, 143, 40, 0.8);
+    padding: 10px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+h4 {
+    font-size: medium;
+}
+
+.article-summary {
+    font-size: medium;
+}
+
+.article-info {
+    position: relative;
+    margin-top: -80px;
+    margin-left: 120px;
+
+}
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 4px;
+    height: 40px;
+}
