@@ -1,0 +1,81 @@
+div.left-sidebar {
+    float: left;
+    width: 2%;
+    height: 410px;
+    margin-left: 30px;
+    background-color: rgba(229, 229, 239, 0.888);
+  }
+  div.right-sidebar {
+    float: left;
+    width: 90%;
+    height: 200px;
+    background-color: rgba(102, 95, 95, 0.977);
+  }
+ div.image1{  
+     margin-left: 20px;
+     margin-top: 20px;
+ }
+div.title{
+    margin-left: 180px;
+    margin-top: -160px;
+    color: white;
+}
+div.artist-title{
+    margin-left: 180px;
+    margin-top:-5px;
+    color: white;
+    font-size:x-small;
+}
+div.artist-button{
+    margin-left: 180px;
+    margin-top:60px;
+    color: white;
+    font-size:x-small;
+}
+
+table{
+width: 100%;
+margin-top: 30px;
+}
+th, td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 40px;
+  }
+
+  div.music-down {
+   
+    width: 103%;
+    height: 80px;
+    margin-top: 50px;
+    margin-left:-25px;
+    
+    background-color: rgba(16, 16, 227, 0.888);
+  }
+
+  div.bottom-image{
+      margin-left: 20px;
+      margin-top: 16px;
+      position: absolute;
+  }
+
+  div.bottom-title{
+      color: white;
+      margin-left: 80px;
+      margin-top: -8px;
+     
+      position: absolute;
+  }
+
+div.music-buttons{
+    color:white;
+    margin-top: 30px;
+    margin-left: 340px;
+    position: absolute;
+
+}
+ div.music-buttons i{
+    padding-left: 140px;
+    
+}
